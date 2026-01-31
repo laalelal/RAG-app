@@ -4,9 +4,9 @@ const chatWindow = document.getElementById("chatWindow");
    CONFIGURATION
    ========================= */
 
-// 🔁 SWITCH THIS WHEN DEPLOYED
+//  SWITCH THIS WHEN DEPLOYED
 // Local backend (development)
-const BACKEND_URL = "http://127.0.0.1:5000";
+const BACKEND_URL = "https://rag-backend-lf6t.onrender.com";
 
 // Deployed backend (Render) – use later
 // const BACKEND_URL = "https://your-backend-name.onrender.com";
@@ -31,7 +31,7 @@ async function askAI() {
 
   const thinking = document.createElement("div");
   thinking.className = "ai-message";
-  thinking.innerText = "🧠 Processing...";
+  thinking.innerText = " Processing...";
   chatWindow.appendChild(thinking);
 
   try {
@@ -48,13 +48,14 @@ async function askAI() {
     const data = await res.json();
     thinking.remove();
 
-    addMessage(data.answer || "⚠️ No answer received.", "ai-message");
+    addMessage(data.answer || " No answer received.", "ai-message");
 
   } catch (err) {
     thinking.remove();
     addMessage(
-      "⚠️ Backend not reachable.\nMake sure backend & Ollama are running.",
+      " Backend not reachable.\nMake sure backend & Ollama are running.",
       "ai-message"
     );
   }
 }
+
