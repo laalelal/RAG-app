@@ -1,51 +1,47 @@
+import json
 import os
 import requests
-import numpy as np
-from sentence_transformers import SentenceTransformer
-from load_chunks import load_chunks   # file you created in step 2
 
-# ---------------- CONFIG ----------------
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+JSON_DIR = "jsons"   # folder with your transcript jsons
 
-# ---------------- UTILS ----------------
-def cosine_similarity(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+def load_all_chunks():
+    chunks = []
+    for file in os.listdir(JSON_DIR):
+        if file.endswith(".json"):
+            with open(os.path.join(JSON_DIR, file), "r", encoding="utf-8") as f:
+                data = json.load(f)
+                chunks.extend(data)
+    return chunks
 
-def retrieve_context(question, top_k=3):
-    chunks = load_chunks()
-    q_embedding = embedding_model.encode(question)
+def simple_retrieval(question, top_k=5):
+    chunks = load_all_chunks()
+    question_lower = question.lower()
 
     scored = []
     for c in chunks:
-        score = cosine_similarity(q_embedding, c["embedding"])
-        scored.append((score, c))
+        text = c["text"].lower()
+        score = sum(1 for word in question_lower.split() if word in text)
+        if score > 0:
+            scored.append((score, c))
 
     scored.sort(key=lambda x: x[0], reverse=True)
     return [c for _, c in scored[:top_k]]
 
-# ---------------- MAIN RAG FUNCTION ----------------
 def get_answer(question):
     if not GROQ_API_KEY:
-        return " GROQ_API_KEY is not set"
+        return "GROQ_API_KEY not set"
 
-    # 🔍 Retrieve relevant video chunks
-    contexts = retrieve_context(question)
+    contexts = simple_retrieval(question)
 
     if not contexts:
-        return " Answer not found in provided videos."
+        return " Not found in video content."
 
-    #  Build context text with timestamps
     context_text = "\n\n".join(
         [f"[{c['start']}s - {c['end']}s] {c['text']}" for c in contexts]
     )
-
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json"
-    }
 
     payload = {
         "model": "llama-3.1-8b-instant",
@@ -55,8 +51,8 @@ def get_answer(question):
                 "content": (
                     "You are a video-based teaching assistant. "
                     "Answer ONLY from the provided context. "
-                    "If the answer is not present, say 'Not covered in the video.' "
-                    "Always include timestamp."
+                    "If not found, say 'Not covered in the video'. "
+                    "Always mention timestamp."
                 )
             },
             {
@@ -67,12 +63,15 @@ Context:
 
 Question:
 {question}
-
-Answer with exact timestamp.
 """
             }
         ],
         "temperature": 0.2
+    }
+
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
     }
 
     res = requests.post(GROQ_URL, headers=headers, json=payload)
@@ -81,3 +80,4 @@ Answer with exact timestamp.
         return f"Groq API Error {res.status_code}: {res.text}"
 
     return res.json()["choices"][0]["message"]["content"]
+
