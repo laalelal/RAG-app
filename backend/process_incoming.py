@@ -5,33 +5,39 @@ import requests
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-BASE_DIR = os.path.dirname(__file__)
+# ABSOLUTE SAFE PATH (works on Render + local)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_DIR = os.path.join(BASE_DIR, "jsons")
 
 def load_all_chunks():
     chunks = []
+
+    if not os.path.exists(JSON_DIR):
+        return []
+
     for file in os.listdir(JSON_DIR):
         if file.endswith(".json"):
             with open(os.path.join(JSON_DIR, file), "r", encoding="utf-8") as f:
                 data = json.load(f)
-                for item in data:
-                    chunks.append({
-                        "text": item["text"],
-                        "start": item["start"],
-                        "end": item["end"],
-                        "source": file.replace(".mp3.json", "")
-                    })
+
+                # Your JSON structure has "chunks"
+                if "chunks" in data:
+                    chunks.extend(data["chunks"])
+
     return chunks
 
 
-def retrieve_chunks(question, top_k=5):
-    question_words = set(question.lower().split())
+def simple_retrieval(question, top_k=5):
     chunks = load_all_chunks()
+    if not chunks:
+        return []
 
+    q = question.lower()
     scored = []
+
     for c in chunks:
-        text_words = set(c["text"].lower().split())
-        score = len(question_words & text_words)
+        text = c.get("text", "").lower()
+        score = sum(1 for w in q.split() if w in text)
         if score > 0:
             scored.append((score, c))
 
@@ -41,16 +47,15 @@ def retrieve_chunks(question, top_k=5):
 
 def get_answer(question):
     if not GROQ_API_KEY:
-        return " GROQ_API_KEY not set"
+        return "❌ GROQ_API_KEY not set"
 
-    matches = retrieve_chunks(question)
+    contexts = simple_retrieval(question)
 
-    if not matches:
-        return " This topic is not covered in the uploaded videos."
+    if not contexts:
+        return "❌ Not covered in the video."
 
-    context = "\n".join(
-        f"[{m['source']} | {m['start']}s–{m['end']}s] {m['text']}"
-        for m in matches
+    context_text = "\n".join(
+        [f"[{c['start']}s - {c['end']}s] {c['text']}" for c in contexts]
     )
 
     payload = {
@@ -59,18 +64,17 @@ def get_answer(question):
             {
                 "role": "system",
                 "content": (
-                    "You are a video-based tutor. "
-                    "Answer ONLY from the provided transcript context. "
-                    "Always include timestamps and video name."
+                    "You are a video-based teaching assistant. "
+                    "Answer ONLY from the given context. "
+                    "Always include timestamps."
                 )
             },
             {
                 "role": "user",
-                "content": f"Context:\n{context}\n\nQuestion:\n{question}"
+                "content": f"Context:\n{context_text}\n\nQuestion:\n{question}"
             }
         ],
-        "temperature": 0.2,
-        "max_tokens": 300
+        "temperature": 0.2
     }
 
     headers = {
