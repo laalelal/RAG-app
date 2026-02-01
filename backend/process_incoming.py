@@ -5,39 +5,41 @@ import requests
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# ABSOLUTE SAFE PATH (works on Render + local)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_DIR = os.path.join(BASE_DIR, "jsons")
+
+
+def sec_to_mmss(seconds):
+    minutes = int(seconds // 60)
+    secs = int(seconds % 60)
+    return f"{minutes:02d}:{secs:02d}"
+
 
 def load_all_chunks():
     chunks = []
 
-    if not os.path.exists(JSON_DIR):
-        return []
-
     for file in os.listdir(JSON_DIR):
         if file.endswith(".json"):
+            video_name = file.replace(".mp3.json", "").replace("_", " ")
+
             with open(os.path.join(JSON_DIR, file), "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-                # Your JSON structure has "chunks"
                 if "chunks" in data:
-                    chunks.extend(data["chunks"])
+                    for c in data["chunks"]:
+                        c["video"] = video_name   #  attach video name
+                        chunks.append(c)
 
     return chunks
 
 
 def simple_retrieval(question, top_k=5):
     chunks = load_all_chunks()
-    if not chunks:
-        return []
-
     q = question.lower()
-    scored = []
 
+    scored = []
     for c in chunks:
-        text = c.get("text", "").lower()
-        score = sum(1 for w in q.split() if w in text)
+        score = sum(1 for w in q.split() if w in c["text"].lower())
         if score > 0:
             scored.append((score, c))
 
@@ -47,16 +49,22 @@ def simple_retrieval(question, top_k=5):
 
 def get_answer(question):
     if not GROQ_API_KEY:
-        return "❌ GROQ_API_KEY not set"
+        return " GROQ_API_KEY not set"
 
     contexts = simple_retrieval(question)
 
     if not contexts:
-        return "❌ Not covered in the video."
+        return " Not covered in the video content."
 
-    context_text = "\n".join(
-        [f"[{c['start']}s - {c['end']}s] {c['text']}" for c in contexts]
-    )
+    formatted_context = []
+    for c in contexts:
+        start = sec_to_mmss(c["start"])
+        end = sec_to_mmss(c["end"])
+        formatted_context.append(
+            f"Video: {c['video']} | Time: {start}–{end}\n{c['text']}"
+        )
+
+    context_text = "\n\n".join(formatted_context)
 
     payload = {
         "model": "llama-3.1-8b-instant",
@@ -66,7 +74,8 @@ def get_answer(question):
                 "content": (
                     "You are a video-based teaching assistant. "
                     "Answer ONLY from the given context. "
-                    "Always include timestamps."
+                    "Always include video name and timestamps. "
+                    "If not found, say: Not covered in the video."
                 )
             },
             {
