@@ -14,7 +14,7 @@ def get_answer(question):
     }
 
     payload = {
-        "model": "llama3-8b-8192",
+        "model": "llama3-70b-8192",
         "messages": [
             {"role": "system", "content": "You are a helpful AI assistant."},
             {"role": "user", "content": question}
@@ -29,3 +29,4 @@ def get_answer(question):
         return f"Groq API Error {res.status_code}: {res.text}"
 
     return res.json()["choices"][0]["message"]["content"]
+
