@@ -8,19 +8,20 @@ CORS(app)
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    data = request.json
+    data = request.get_json(silent=True) or {}
     question = data.get("question")
 
     if not question:
-        return jsonify({"answer": "⚠️ Please ask a valid question."})
+        return jsonify({"answer": " Please ask a valid question."})
 
     try:
         answer = get_answer(question)
         return jsonify({"answer": answer})
     except Exception as e:
-        return jsonify({"answer": f"Error: {str(e)}"})
+        return jsonify({"answer": f"Error: {str(e)}"}), 500
 
-#  THIS PART IS VERY IMPORTANT FOR RENDER
+
+#  IMPORTANT FOR RENDER
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))  # Render gives PORT
+    port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
