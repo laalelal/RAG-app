@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body {
 /* APP CONTAINER */
 .ai-container {
   width: 100%;
-  max-width: 900px;      /* 🔥 PC FIX */
+  max-width: 900px;      /*pc size fixes by ths*/
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ body {
 
 /* CHAT WINDOW (SCROLLS PROPERLY) */
 .chat-window {
-  flex: 1;                /* 🔥 PHONE SCROLL FIX */
+  flex: 1;                /*  PHONE SCROLL FIX */
   overflow-y: auto;
   padding: 16px;
 }
@@ -138,4 +138,5 @@ body {
     max-width: 90%;
   }
 }
+
 
