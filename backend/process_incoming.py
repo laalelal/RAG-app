@@ -5,7 +5,8 @@ import requests
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-JSON_DIR = "jsons"   # folder with your transcript jsons
+BASE_DIR = os.path.dirname(__file__)
+JSON_DIR = os.path.join(BASE_DIR, "jsons")
 
 def load_all_chunks():
     chunks = []
@@ -13,34 +14,43 @@ def load_all_chunks():
         if file.endswith(".json"):
             with open(os.path.join(JSON_DIR, file), "r", encoding="utf-8") as f:
                 data = json.load(f)
-                chunks.extend(data)
+                for item in data:
+                    chunks.append({
+                        "text": item["text"],
+                        "start": item["start"],
+                        "end": item["end"],
+                        "source": file.replace(".mp3.json", "")
+                    })
     return chunks
 
-def simple_retrieval(question, top_k=5):
+
+def retrieve_chunks(question, top_k=5):
+    question_words = set(question.lower().split())
     chunks = load_all_chunks()
-    question_lower = question.lower()
 
     scored = []
     for c in chunks:
-        text = c["text"].lower()
-        score = sum(1 for word in question_lower.split() if word in text)
+        text_words = set(c["text"].lower().split())
+        score = len(question_words & text_words)
         if score > 0:
             scored.append((score, c))
 
     scored.sort(key=lambda x: x[0], reverse=True)
     return [c for _, c in scored[:top_k]]
 
+
 def get_answer(question):
     if not GROQ_API_KEY:
-        return "GROQ_API_KEY not set"
+        return " GROQ_API_KEY not set"
 
-    contexts = simple_retrieval(question)
+    matches = retrieve_chunks(question)
 
-    if not contexts:
-        return " Not found in video content."
+    if not matches:
+        return " This topic is not covered in the uploaded videos."
 
-    context_text = "\n\n".join(
-        [f"[{c['start']}s - {c['end']}s] {c['text']}" for c in contexts]
+    context = "\n".join(
+        f"[{m['source']} | {m['start']}s–{m['end']}s] {m['text']}"
+        for m in matches
     )
 
     payload = {
@@ -49,24 +59,18 @@ def get_answer(question):
             {
                 "role": "system",
                 "content": (
-                    "You are a video-based teaching assistant. "
-                    "Answer ONLY from the provided context. "
-                    "If not found, say 'Not covered in the video'. "
-                    "Always mention timestamp."
+                    "You are a video-based tutor. "
+                    "Answer ONLY from the provided transcript context. "
+                    "Always include timestamps and video name."
                 )
             },
             {
                 "role": "user",
-                "content": f"""
-Context:
-{context_text}
-
-Question:
-{question}
-"""
+                "content": f"Context:\n{context}\n\nQuestion:\n{question}"
             }
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "max_tokens": 300
     }
 
     headers = {
@@ -80,4 +84,3 @@ Question:
         return f"Groq API Error {res.status_code}: {res.text}"
 
     return res.json()["choices"][0]["message"]["content"]
-
