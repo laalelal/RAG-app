@@ -1,6 +1,3 @@
 flask
 flask-cors
 requests
-numpy
-scikit-learn
-sentence-transformers
