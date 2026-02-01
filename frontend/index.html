@@ -29,7 +29,7 @@
 <script src="script.js"></script>
 </body>
 </html>
--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,4 +62,51 @@
 <script src="script.js"></script>
 </body>
 </html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG AI Assistant</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="ai-container">
+
+  <!-- HEADER -->
+  <div class="ai-header">
+
+    <h1>RAG · AI CORE</h1>
+    <p>Retrieval Augmented Intelligence</p>
+
+    <!-- HEADER CONTROLS -->
+    <div class="header-controls">
+
+      <!-- SYSTEM BOX (RIGHT) -->
+      <div class="system-box">
+        🤖 System online. Ask your question.
+      </div>
+
+      <!-- ASK BOX (LEFT) -->
+      <div class="ask-box">
+        <input id="question" type="text" placeholder="Ask the AI..." />
+        <button onclick="askAI()">ASK</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ANSWERS -->
+  <div class="chat-window" id="chatWindow"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
 
