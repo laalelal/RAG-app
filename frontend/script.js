@@ -4,12 +4,8 @@ const chatWindow = document.getElementById("chatWindow");
    CONFIGURATION
    ========================= */
 
-//  SWITCH THIS WHEN DEPLOYED
-// Local backend (development)
+// Render backend (LIVE)
 const BACKEND_URL = "https://rag-backend-lf6t.onrender.com";
-
-// Deployed backend (Render) – use later
-// const BACKEND_URL = "https://your-backend-name.onrender.com";
 
 /* ========================= */
 
@@ -31,32 +27,52 @@ async function askAI() {
 
   const thinking = document.createElement("div");
   thinking.className = "ai-message";
-  thinking.innerText = " Processing...";
+  thinking.innerText = "⏳ Waking up server, please wait...";
   chatWindow.appendChild(thinking);
+
+  // ⏱ Render free-tier cold start protection
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 90000); // 90 sec
 
   try {
     const res = await fetch(`${BACKEND_URL}/ask`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question })
+      body: JSON.stringify({ question }),
+      signal: controller.signal
     });
 
+    clearTimeout(timeoutId);
+    thinking.remove();
+
     if (!res.ok) {
-      throw new Error("Backend error");
+      addMessage(
+        " Backend error. Please retry once.",
+        "ai-message"
+      );
+      return;
     }
 
     const data = await res.json();
-    thinking.remove();
 
-    addMessage(data.answer || " No answer received.", "ai-message");
+    addMessage(
+      data.answer || " No answer found in the video.",
+      "ai-message"
+    );
 
   } catch (err) {
     thinking.remove();
-    addMessage(
-      " Backend not reachable.\nMake sure backend & Ollama are running.",
-      "ai-message"
-    );
+
+    if (err.name === "AbortError") {
+      addMessage(
+        "⏳ Server waking up (Render free tier). Retry in 30–60 seconds.",
+        "ai-message"
+      );
+    } else {
+      addMessage(
+        " Cannot reach backend. Please retry.",
+        "ai-message"
+      );
+    }
   }
 }
-
-
