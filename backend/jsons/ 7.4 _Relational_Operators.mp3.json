@@ -1,0 +1,572 @@
+{
+    "chunks": [
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 0.0,
+            "end": 4.38,
+            "text": " The next type of operator is relational operators."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 4.38,
+            "end": 10.76,
+            "text": " You must have heard or seen such expressions in Maths."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 10.76,
+            "end": 17.94,
+            "text": " A is greater than B, B is greater than C, 3 is greater than 2."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 17.94,
+            "end": 23.740000000000002,
+            "text": " This is a universal law. 1 is less than 5."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 23.74,
+            "end": 33.86,
+            "text": " Such expressions are called relational operators."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 33.86,
+            "end": 39.94,
+            "text": " The first type of relational operator in Java is equal to equal to operator."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 39.94,
+            "end": 46.58,
+            "text": " This operator is used to check whether the values are equal or not."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 46.58,
+            "end": 51.96,
+            "text": " In Maths, we used to write A is equal to B or 5 is equal to 2."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 51.96,
+            "end": 57.339999999999996,
+            "text": " But in Java, as soon as you write A is equal to B, it will not check the condition."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 57.339999999999996,
+            "end": 60.9,
+            "text": " Instead, Java will store the value of B in A."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 60.9,
+            "end": 66.16,
+            "text": " So, this equal to is not a relational operator. It is an assignment operator."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 66.16,
+            "end": 69.3,
+            "text": " It transfers the value from right to left."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 69.3,
+            "end": 75.88,
+            "text": " So, in Java, if we want to check whether one value is equal to A and the other is equal to B,"
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 75.88,
+            "end": 79.52,
+            "text": " we use the double equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 79.52,
+            "end": 82.02,
+            "text": " A is equal to B."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 82.02,
+            "end": 88.1,
+            "text": " If A is equal to 10 and B is equal to 5, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 88.1,
+            "end": 96.56,
+            "text": " But if I write A is equal to B, A is equal to 10 and B is equal to 10, then it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 97.16,
+            "end": 101.8,
+            "text": " So, the equal to operator checks whether two values are equal or not."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 101.8,
+            "end": 103.8,
+            "text": " For this, let's write the code."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 103.8,
+            "end": 106.36,
+            "text": " Int A is equal to 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 106.36,
+            "end": 109.84,
+            "text": " Int B is equal to 5."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 109.84,
+            "end": 112.32000000000001,
+            "text": " And what we want to print?"
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 112.32000000000001,
+            "end": 117.80000000000001,
+            "text": " System.out.println A is equal to B."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 119.92,
+            "end": 123.92,
+            "text": " Now, when we execute it, it will print false for us."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 124.08,
+            "end": 131.12,
+            "text": " But if I make B equal to 10, then the value of A and B will be equal to 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 131.12,
+            "end": 135.12,
+            "text": " And if both are equal, then it will print true for us."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 135.12,
+            "end": 141.72,
+            "text": " The second type of relational operator is not equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 141.72,
+            "end": 148.12,
+            "text": " In Java, if you see an exclamation mark in the operator, we read it as not."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 148.12,
+            "end": 150.12,
+            "text": " Not."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 150.12,
+            "end": 153.88,
+            "text": " So, not equal to is the opposite of equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 153.88,
+            "end": 155.88,
+            "text": " What will it do?"
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 155.88,
+            "end": 157.88,
+            "text": " It will check not equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 157.88,
+            "end": 161.88,
+            "text": " Or it will check inequality."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 161.88,
+            "end": 165.88,
+            "text": " It will give the opposite result of equal to and equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 165.88,
+            "end": 174.88,
+            "text": " If I write A not equal to B, where A is equal to 10 and B is equal to 5, then it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 174.88,
+            "end": 178.88,
+            "text": " That yes, you are right, A is not equal to B."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 178.88,
+            "end": 187.88,
+            "text": " But if I take 10 on A and 10 on B, and check whether A is not equal to B, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 187.88,
+            "end": 189.88,
+            "text": " That you are not right."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 189.88,
+            "end": 192.88,
+            "text": " You are saying that A is not equal to B, but A is equal to B."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 192.88,
+            "end": 196.88,
+            "text": " So, it gives the opposite result of equal to and equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 196.88,
+            "end": 198.88,
+            "text": " Let's code it once."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 198.88,
+            "end": 201.88,
+            "text": " We have taken A is equal to 10 and B is equal to 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 201.88,
+            "end": 203.88,
+            "text": " What are we going to do?"
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 203.88,
+            "end": 209.88,
+            "text": " If I write A not equal to B, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 209.88,
+            "end": 216.88,
+            "text": " If I make it unequal, then the result will be true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 216.88,
+            "end": 218.88,
+            "text": " Next relational operator is greater."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 218.88,
+            "end": 220.88,
+            "text": " Greater is very intuitive."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 220.88,
+            "end": 222.88,
+            "text": " You will understand it as soon as you see it."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 222.88,
+            "end": 230.88,
+            "text": " If I write any value A is greater than B, where I give 10 to A and 5 to B."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 230.88,
+            "end": 234.88,
+            "text": " I am using 10 and 5 so that we can easily understand the example."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 234.88,
+            "end": 237.88,
+            "text": " You can take 20 or 25 instead of them."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 237.88,
+            "end": 243.88,
+            "text": " If A has 10 and B has 5, then I know that 10 is greater than 5."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 243.88,
+            "end": 245.88,
+            "text": " This statement is true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 245.88,
+            "end": 247.88,
+            "text": " So, it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 247.88,
+            "end": 258.88,
+            "text": " But if I put 20 in A and I say it is greater than 50, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 258.88,
+            "end": 261.88,
+            "text": " Let's say A has 10 and B has 5."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 261.88,
+            "end": 263.88,
+            "text": " Here I have written greater."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 263.88,
+            "end": 268.88,
+            "text": " In that case, it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 268.88,
+            "end": 276.88,
+            "text": " But if I write B greater than A, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 281.88,
+            "end": 284.88,
+            "text": " Now, in the same way, less than operator is used."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 284.88,
+            "end": 286.88,
+            "text": " What will less than operator do?"
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 287.88,
+            "end": 296.88,
+            "text": " If I had A less than B, then it would return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 296.88,
+            "end": 305.88,
+            "text": " If I had A less than B, then it would return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 305.88,
+            "end": 307.88,
+            "text": " Let's code it."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 308.88,
+            "end": 316.88,
+            "text": " If A has 10 and B has 5, then I am saying that B is less than A."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 316.88,
+            "end": 318.88,
+            "text": " So, 5 is less than 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 318.88,
+            "end": 320.88,
+            "text": " So, 5 is less than 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 320.88,
+            "end": 322.88,
+            "text": " In that case, it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 322.88,
+            "end": 332.88,
+            "text": " If I reverse it, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 333.88,
+            "end": 337.88,
+            "text": " Now, there are two more operators in relational operators."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 337.88,
+            "end": 341.88,
+            "text": " The first one is greater than equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 341.88,
+            "end": 344.88,
+            "text": " It also checks the condition of equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 344.88,
+            "end": 348.88,
+            "text": " It is very intuitive to use it by checking the condition of equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 348.88,
+            "end": 351.88,
+            "text": " Here, A has 10."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 351.88,
+            "end": 358.88,
+            "text": " If I say B is 10 and then I say A is less than B, then it will return false."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 359.88,
+            "end": 364.88,
+            "text": " But, if I say A is less than equal to B, then it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 364.88,
+            "end": 366.88,
+            "text": " Because it is checking the condition of equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 366.88,
+            "end": 372.88,
+            "text": " Similarly, if I say greater than equal to B, then it will return true."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 372.88,
+            "end": 377.88,
+            "text": " Because it is checking the condition of greater than and equal to."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 377.88,
+            "end": 383.88,
+            "text": " So, in this way, there are 6 total relational operators which we are using time to time."
+        },
+        {
+            "number": " 7.4 ",
+            "title": "Relational",
+            "start": 383.88,
+            "end": 390.88,
+            "text": " We should know which expression we are expecting true and which expression we are expecting false."
+        }
+    ],
+    "text": " The next type of operator is relational operators. You must have heard or seen such expressions in Maths. A is greater than B, B is greater than C, 3 is greater than 2. This is a universal law. 1 is less than 5. Such expressions are called relational operators. The first type of relational operator in Java is equal to equal to operator. This operator is used to check whether the values are equal or not. In Maths, we used to write A is equal to B or 5 is equal to 2. But in Java, as soon as you write A is equal to B, it will not check the condition. Instead, Java will store the value of B in A. So, this equal to is not a relational operator. It is an assignment operator. It transfers the value from right to left. So, in Java, if we want to check whether one value is equal to A and the other is equal to B, we use the double equal to. A is equal to B. If A is equal to 10 and B is equal to 5, then it will return false. But if I write A is equal to B, A is equal to 10 and B is equal to 10, then it will return true. So, the equal to operator checks whether two values are equal or not. For this, let's write the code. Int A is equal to 10. Int B is equal to 5. And what we want to print? System.out.println A is equal to B. Now, when we execute it, it will print false for us. But if I make B equal to 10, then the value of A and B will be equal to 10. And if both are equal, then it will print true for us. The second type of relational operator is not equal to. In Java, if you see an exclamation mark in the operator, we read it as not. Not. So, not equal to is the opposite of equal to. What will it do? It will check not equal to. Or it will check inequality. It will give the opposite result of equal to and equal to. If I write A not equal to B, where A is equal to 10 and B is equal to 5, then it will return true. That yes, you are right, A is not equal to B. But if I take 10 on A and 10 on B, and check whether A is not equal to B, then it will return false. That you are not right. You are saying that A is not equal to B, but A is equal to B. So, it gives the opposite result of equal to and equal to. Let's code it once. We have taken A is equal to 10 and B is equal to 10. What are we going to do? If I write A not equal to B, then it will return false. If I make it unequal, then the result will be true. Next relational operator is greater. Greater is very intuitive. You will understand it as soon as you see it. If I write any value A is greater than B, where I give 10 to A and 5 to B. I am using 10 and 5 so that we can easily understand the example. You can take 20 or 25 instead of them. If A has 10 and B has 5, then I know that 10 is greater than 5. This statement is true. So, it will return true. But if I put 20 in A and I say it is greater than 50, then it will return false. Let's say A has 10 and B has 5. Here I have written greater. In that case, it will return true. But if I write B greater than A, then it will return false. Now, in the same way, less than operator is used. What will less than operator do? If I had A less than B, then it would return false. If I had A less than B, then it would return true. Let's code it. If A has 10 and B has 5, then I am saying that B is less than A. So, 5 is less than 10. So, 5 is less than 10. In that case, it will return true. If I reverse it, then it will return false. Now, there are two more operators in relational operators. The first one is greater than equal to. It also checks the condition of equal to. It is very intuitive to use it by checking the condition of equal to. Here, A has 10. If I say B is 10 and then I say A is less than B, then it will return false. But, if I say A is less than equal to B, then it will return true. Because it is checking the condition of equal to. Similarly, if I say greater than equal to B, then it will return true. Because it is checking the condition of greater than and equal to. So, in this way, there are 6 total relational operators which we are using time to time. We should know which expression we are expecting true and which expression we are expecting false."
+}

@@ -1,0 +1,782 @@
+{
+    "chunks": [
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 0.0,
+            "end": 3.0,
+            "text": " Next we will talk about unary operators."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 3.0,
+            "end": 8.0,
+            "text": " Unary operators need only a single operand to perform their function."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 8.0,
+            "end": 16.0,
+            "text": " Unary operator sounds new, strange and weird but it is very easy."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 16.0,
+            "end": 23.0,
+            "text": " It is basically a simple way of writing a plus 1 is equal to a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 23.0,
+            "end": 32.0,
+            "text": " Whenever we want to write a plus 1 is equal to a, we can write a plus plus or plus plus a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 32.0,
+            "end": 41.0,
+            "text": " Whenever we want to write a is equal to a minus 1, we can write a minus minus or minus minus a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 41.0,
+            "end": 47.0,
+            "text": " So in a way, when our first operand can be anything but the second operand is always 1,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 47.0,
+            "end": 51.0,
+            "text": " then we know that we have to perform the function on only one operand."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 51.0,
+            "end": 55.0,
+            "text": " We have to work on a only. We know that the second operand is automatically 1."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 55.0,
+            "end": 58.0,
+            "text": " That's why it is called unary operator."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 58.0,
+            "end": 62.0,
+            "text": " So a plus 1 is equal to a. The simple way to write a is a plus plus."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 62.0,
+            "end": 67.0,
+            "text": " If you want to increase or decrease the value of any variable by 1,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 67.0,
+            "end": 71.0,
+            "text": " then we will either write plus plus or minus minus."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 71.0,
+            "end": 77.0,
+            "text": " We call this plus plus as increment operator because it increases the value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 77.0,
+            "end": 83.0,
+            "text": " And we call this minus minus as decrement operator because it decreases the value by 1."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 83.0,
+            "end": 89.0,
+            "text": " Now increment and decrement operators have two subtypes."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 89.0,
+            "end": 91.0,
+            "text": " First, let's talk about the increment operator."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 91.0,
+            "end": 93.0,
+            "text": " Increment operator is of two types."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 93.0,
+            "end": 98.0,
+            "text": " First is pre-increment and the second type is post-increment."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 98.0,
+            "end": 105.0,
+            "text": " Pre means before and post means later."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 105.0,
+            "end": 109.0,
+            "text": " So increment operator follows a rule."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 109.0,
+            "end": 112.0,
+            "text": " What does pre-increment operator do?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 112.0,
+            "end": 116.0,
+            "text": " First of all, it will change the value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 116.0,
+            "end": 121.0,
+            "text": " That is, the value of the unary operation you want to perform will change first."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 121.0,
+            "end": 125.0,
+            "text": " And after that, the value will be used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 125.0,
+            "end": 131.0,
+            "text": " Plus plus is before, which means the value will change first and then the value will be used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 131.0,
+            "end": 133.0,
+            "text": " What does this mean?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 133.0,
+            "end": 138.0,
+            "text": " This means that if I define a variable int a is equal to 10,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " and I define another variable b is equal to plus plus a,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 142.0,
+            "end": 146.0,
+            "text": " and then if I want to print b,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 146.0,
+            "end": 152.0,
+            "text": " then first I print a, then I print b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 156.0,
+            "end": 163.0,
+            "text": " So here the value of a was printed 11 and the value of b was also printed 11."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " So what did this statement do?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 165.0,
+            "end": 169.0,
+            "text": " This statement increased a by 1."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 169.0,
+            "end": 175.0,
+            "text": " So a value increased from 10 to 11 and then it assigned that 11 value to b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " Let's understand this with a little diagram."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 177.0,
+            "end": 179.0,
+            "text": " What did we do?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 179.0,
+            "end": 182.0,
+            "text": " First we defined a is equal to 10."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 182.0,
+            "end": 186.0,
+            "text": " After that, we wrote int b is equal to plus plus a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 186.0,
+            "end": 189.0,
+            "text": " So what did we understand the meaning of plus plus a?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 189.0,
+            "end": 191.0,
+            "text": " It means a plus 1."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 191.0,
+            "end": 197.0,
+            "text": " The value a plus 1 will be used after the change."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 197.0,
+            "end": 200.0,
+            "text": " That is, first of all, in the memory,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 200.0,
+            "end": 206.0,
+            "text": " where a is stored and its value is 10,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 206.0,
+            "end": 210.0,
+            "text": " first that value will be cut to 10 and 11 will be stored there."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 210.0,
+            "end": 214.0,
+            "text": " And after that, in b, where there was no value,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 214.0,
+            "end": 218.0,
+            "text": " there will be the same 11 stored there."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 218.0,
+            "end": 222.0,
+            "text": " So when we printed a, we got 11 prints."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 222.0,
+            "end": 227.0,
+            "text": " And when we printed b, we got 11 prints there too."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 227.0,
+            "end": 231.0,
+            "text": " Why? Because first of all, the value of a will change and then it will be used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 231.0,
+            "end": 239.0,
+            "text": " First of all, a will change itself and then its updated value 11 will be used to assign b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 239.0,
+            "end": 244.0,
+            "text": " Whenever we change first and then use it later, we call it pre-increment."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 244.0,
+            "end": 248.0,
+            "text": " That is, you increased it earlier and then used that value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 248.0,
+            "end": 251.0,
+            "text": " Its second type is post-increment."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 251.0,
+            "end": 255.0,
+            "text": " In post-increment, this plus plus comes after the variable."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 256.0,
+            "end": 266.0,
+            "text": " The rule of post-increment says that first we will use the old value and then we will change the value of the variable."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 266.0,
+            "end": 273.0,
+            "text": " So first the old value of the variable will be used and then the value of the variable will be updated."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 273.0,
+            "end": 278.0,
+            "text": " For this, we write the same code again, but this time we will write a plus plus."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 279.0,
+            "end": 292.0,
+            "text": " If I copy this code and write a plus plus here,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 292.0,
+            "end": 301.0,
+            "text": " then in this case, when I print a, I will get 11 prints, but when I print b, I will get 10 prints."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 301.0,
+            "end": 302.0,
+            "text": " Why did this happen?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 302.0,
+            "end": 312.0,
+            "text": " This happened because if we do a plus plus in our memory, then a is assigned 10 in the beginning."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 312.0,
+            "end": 317.0,
+            "text": " And when it comes a plus plus, then the value of a should be a plus one."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 317.0,
+            "end": 321.0,
+            "text": " But Java will make b before doing a plus one."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 321.0,
+            "end": 327.0,
+            "text": " So first b will be made, then the value of a in b will be assigned."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 327.0,
+            "end": 329.0,
+            "text": " Means its old value will be used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 329.0,
+            "end": 333.0,
+            "text": " The old value of a is 10, so first 10 will go inside b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 333.0,
+            "end": 336.0,
+            "text": " After that, the value of a will change."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 336.0,
+            "end": 341.0,
+            "text": " Means as the value of b is assigned, b will be made in the memory, after that the value of a will change."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 341.0,
+            "end": 345.0,
+            "text": " After that, 11 will be stored in b instead of 10."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 345.0,
+            "end": 347.0,
+            "text": " Then we will come to the next line."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 347.0,
+            "end": 350.0,
+            "text": " In the next line, we will check that the value of a will be printed 11,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 350.0,
+            "end": 355.0,
+            "text": " but if we check the value of b, then it was assigned before a was incremented."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 355.0,
+            "end": 357.0,
+            "text": " So there will be 10 printed for us."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 357.0,
+            "end": 361.0,
+            "text": " So in post increment, first we use the old value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 361.0,
+            "end": 364.0,
+            "text": " Means to make b, the old value of a was used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 364.0,
+            "end": 367.0,
+            "text": " After that, we change the value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 367.0,
+            "end": 369.0,
+            "text": " That's why its name is post increment."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 369.0,
+            "end": 372.0,
+            "text": " That's why the plus plus is kept after a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 372.0,
+            "end": 376.0,
+            "text": " In the same similar manner, we have our decrement operator."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 376.0,
+            "end": 378.0,
+            "text": " The same rule of decrement operator remains."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " Pre means before."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " So what will happen before?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 382.0,
+            "end": 385.0,
+            "text": " First, our value will be changed."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 385.0,
+            "end": 390.0,
+            "text": " And after that, we will use our new updated value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 390.0,
+            "end": 392.0,
+            "text": " What will happen in post decrement?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 392.0,
+            "end": 396.0,
+            "text": " First of all, we will use our old value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 396.0,
+            "end": 402.0,
+            "text": " And after that, we will change or update the value of our variable."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 402.0,
+            "end": 404.0,
+            "text": " Let's see an example of this."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 404.0,
+            "end": 407.0,
+            "text": " First of all, if I take an integer a,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 407.0,
+            "end": 408.0,
+            "text": " is equal to 10."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 408.0,
+            "end": 410.0,
+            "text": " After that, I took an integer b,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 410.0,
+            "end": 413.0,
+            "text": " is equal to minus minus a."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 415.0,
+            "end": 418.0,
+            "text": " And if I print the value of a,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " and after that the value of b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 425.0,
+            "end": 428.0,
+            "text": " So the result of this is 9 and 9."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 428.0,
+            "end": 431.0,
+            "text": " Because minus minus a, means the pre decrement operator,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " will change the first value."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " Then we will use it to make b."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 435.0,
+            "end": 438.0,
+            "text": " But here, if instead of minus minus a,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 438.0,
+            "end": 440.0,
+            "text": " we use a minus minus, then what will happen?"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 440.0,
+            "end": 443.0,
+            "text": " In that case, in b, only 10 is stored."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 443.0,
+            "end": 445.0,
+            "text": " Only a value changes."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 445.0,
+            "end": 448.0,
+            "text": " Because to make b, only one old value is used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 448.0,
+            "end": 450.0,
+            "text": " That is, 10 is used."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 450.0,
+            "end": 454.0,
+            "text": " So this difference occurs in unary increment and unary decrement."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 454.0,
+            "end": 457.0,
+            "text": " In this also, we have to take special care of pre and post."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 457.0,
+            "end": 460.0,
+            "text": " In our expressions, whether we are using pre or post,"
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 460.0,
+            "end": 463.0,
+            "text": " sometimes it brings a slight change."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 463.0,
+            "end": 466.0,
+            "text": " Because of which the code can get disrupted."
+        },
+        {
+            "number": " 7.3  ",
+            "title": "Unary",
+            "start": 466.0,
+            "end": 469.0,
+            "text": " That is why we have to keep our basics very clear from the beginning."
+        }
+    ],
+    "text": " Next we will talk about unary operators. Unary operators need only a single operand to perform their function. Unary operator sounds new, strange and weird but it is very easy. It is basically a simple way of writing a plus 1 is equal to a. Whenever we want to write a plus 1 is equal to a, we can write a plus plus or plus plus a. Whenever we want to write a is equal to a minus 1, we can write a minus minus or minus minus a. So in a way, when our first operand can be anything but the second operand is always 1, then we know that we have to perform the function on only one operand. We have to work on a only. We know that the second operand is automatically 1. That's why it is called unary operator. So a plus 1 is equal to a. The simple way to write a is a plus plus. If you want to increase or decrease the value of any variable by 1, then we will either write plus plus or minus minus. We call this plus plus as increment operator because it increases the value. And we call this minus minus as decrement operator because it decreases the value by 1. Now increment and decrement operators have two subtypes. First, let's talk about the increment operator. Increment operator is of two types. First is pre-increment and the second type is post-increment. Pre means before and post means later. So increment operator follows a rule. What does pre-increment operator do? First of all, it will change the value. That is, the value of the unary operation you want to perform will change first. And after that, the value will be used. Plus plus is before, which means the value will change first and then the value will be used. What does this mean? This means that if I define a variable int a is equal to 10, and I define another variable b is equal to plus plus a, and then if I want to print b, then first I print a, then I print b. So here the value of a was printed 11 and the value of b was also printed 11. So what did this statement do? This statement increased a by 1. So a value increased from 10 to 11 and then it assigned that 11 value to b. Let's understand this with a little diagram. What did we do? First we defined a is equal to 10. After that, we wrote int b is equal to plus plus a. So what did we understand the meaning of plus plus a? It means a plus 1. The value a plus 1 will be used after the change. That is, first of all, in the memory, where a is stored and its value is 10, first that value will be cut to 10 and 11 will be stored there. And after that, in b, where there was no value, there will be the same 11 stored there. So when we printed a, we got 11 prints. And when we printed b, we got 11 prints there too. Why? Because first of all, the value of a will change and then it will be used. First of all, a will change itself and then its updated value 11 will be used to assign b. Whenever we change first and then use it later, we call it pre-increment. That is, you increased it earlier and then used that value. Its second type is post-increment. In post-increment, this plus plus comes after the variable. The rule of post-increment says that first we will use the old value and then we will change the value of the variable. So first the old value of the variable will be used and then the value of the variable will be updated. For this, we write the same code again, but this time we will write a plus plus. If I copy this code and write a plus plus here, then in this case, when I print a, I will get 11 prints, but when I print b, I will get 10 prints. Why did this happen? This happened because if we do a plus plus in our memory, then a is assigned 10 in the beginning. And when it comes a plus plus, then the value of a should be a plus one. But Java will make b before doing a plus one. So first b will be made, then the value of a in b will be assigned. Means its old value will be used. The old value of a is 10, so first 10 will go inside b. After that, the value of a will change. Means as the value of b is assigned, b will be made in the memory, after that the value of a will change. After that, 11 will be stored in b instead of 10. Then we will come to the next line. In the next line, we will check that the value of a will be printed 11, but if we check the value of b, then it was assigned before a was incremented. So there will be 10 printed for us. So in post increment, first we use the old value. Means to make b, the old value of a was used. After that, we change the value. That's why its name is post increment. That's why the plus plus is kept after a. In the same similar manner, we have our decrement operator. The same rule of decrement operator remains. Pre means before. So what will happen before? First, our value will be changed. And after that, we will use our new updated value. What will happen in post decrement? First of all, we will use our old value. And after that, we will change or update the value of our variable. Let's see an example of this. First of all, if I take an integer a, is equal to 10. After that, I took an integer b, is equal to minus minus a. And if I print the value of a, and after that the value of b. So the result of this is 9 and 9. Because minus minus a, means the pre decrement operator, will change the first value. Then we will use it to make b. But here, if instead of minus minus a, we use a minus minus, then what will happen? In that case, in b, only 10 is stored. Only a value changes. Because to make b, only one old value is used. That is, 10 is used. So this difference occurs in unary increment and unary decrement. In this also, we have to take special care of pre and post. In our expressions, whether we are using pre or post, sometimes it brings a slight change. Because of which the code can get disrupted. That is why we have to keep our basics very clear from the beginning."
+}

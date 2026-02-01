@@ -1,0 +1,1223 @@
+{
+    "chunks": [
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 0.0,
+            "end": 6.44,
+            "text": " Next we will talk about logical operators which check the logic of our program."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 6.44,
+            "end": 12.44,
+            "text": " We can write some statements like the first statement 3 is greater than 2."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 12.44,
+            "end": 16.44,
+            "text": " This statement will give me true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 16.44,
+            "end": 21.240000000000002,
+            "text": " The second statement 1 is not equal to 1."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 21.240000000000002,
+            "end": 24.240000000000002,
+            "text": " This statement will give me false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 24.240000000000002,
+            "end": 28.84,
+            "text": " The third statement 5 is less than 10."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 28.84,
+            "end": 31.84,
+            "text": " This statement will also give me true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 31.84,
+            "end": 42.84,
+            "text": " In this way, different statements can be made in our code."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 42.84,
+            "end": 46.84,
+            "text": " Now if we want to make a logic based on these statements in our program,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 46.84,
+            "end": 49.84,
+            "text": " then we make it using logical operators."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 49.84,
+            "end": 53.84,
+            "text": " The first logical operator we will talk about is logical and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 53.84,
+            "end": 57.84,
+            "text": " To write logical and, we have to write 2 ampersand."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 57.84,
+            "end": 61.84,
+            "text": " That is, we have to write the sign of and on the keyboard twice."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 61.84,
+            "end": 63.84,
+            "text": " This is called logical and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 63.84,
+            "end": 67.84,
+            "text": " If you put a single and by mistake, it will become a bitwise operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 67.84,
+            "end": 69.84,
+            "text": " Due to which an error can occur in your code."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 69.84,
+            "end": 71.84,
+            "text": " So do not put a single and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 71.84,
+            "end": 76.84,
+            "text": " In logical operators, double and and double pipe are always used."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 76.84,
+            "end": 84.84,
+            "text": " The rule of logical and says that if your statement 1 and statement 2 are true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 84.84,
+            "end": 90.84,
+            "text": " there are some rules for them."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 90.84,
+            "end": 92.84,
+            "text": " This is our final answer."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 92.84,
+            "end": 96.84,
+            "text": " If my statement 1 is true and my statement 2 is also true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 96.84,
+            "end": 99.84,
+            "text": " then my final answer will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 99.84,
+            "end": 103.84,
+            "text": " If my statement 1 is true and my statement 2 is false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 103.84,
+            "end": 106.84,
+            "text": " then my final answer will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 106.84,
+            "end": 111.84,
+            "text": " If my statement 1 is false and my statement 2 is true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 111.84,
+            "end": 114.84,
+            "text": " then my final answer will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 114.84,
+            "end": 119.84,
+            "text": " And if both of them are false, then my final answer will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 119.84,
+            "end": 123.84,
+            "text": " Logical and says that if both of my statements are true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 123.84,
+            "end": 125.84,
+            "text": " then my final answer will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 125.84,
+            "end": 129.84,
+            "text": " In all other cases, my final answer will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 129.84,
+            "end": 132.84,
+            "text": " This is the rule of logical and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 132.84,
+            "end": 138.84,
+            "text": " If you are from a computer science background, then you must have heard of logical gates."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 138.84,
+            "end": 145.84,
+            "text": " Logical gates are used in computers to make a lot of machines."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 145.84,
+            "end": 153.84,
+            "text": " The programming logic in computers is made up of logical and, logical or, logical not."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 153.84,
+            "end": 156.84,
+            "text": " We have to keep these rules in mind."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 156.84,
+            "end": 158.84,
+            "text": " What is the condition of and?"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 158.84,
+            "end": 165.84,
+            "text": " The condition of and is that if both statements are true, then the and will return true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 165.84,
+            "end": 167.84,
+            "text": " We have to remember this."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 167.84,
+            "end": 175.84,
+            "text": " Logical and says that if I take statement 1 and statement 2,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 175.84,
+            "end": 177.84,
+            "text": " and put and and between them,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 177.84,
+            "end": 182.84,
+            "text": " and if it is true here and here, then my final output will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 182.84,
+            "end": 186.84,
+            "text": " In other cases, the final output will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 186.84,
+            "end": 188.84,
+            "text": " Let's see this in the form of an example."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 188.84,
+            "end": 190.84,
+            "text": " We are going to print it."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 190.84,
+            "end": 193.84,
+            "text": " First of all, we will write our statement 1."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 193.84,
+            "end": 196.84,
+            "text": " Assume statement 1 is 3 greater than 2."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 196.84,
+            "end": 200.84,
+            "text": " Now, we know that 3 greater than 2 is a relational operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 200.84,
+            "end": 203.84,
+            "text": " If this statement is true, then it will return true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 203.84,
+            "end": 207.84,
+            "text": " And here I will put and and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 207.84,
+            "end": 210.84,
+            "text": " I will give some space for clarity."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 210.84,
+            "end": 214.84,
+            "text": " And write the second statement 5 greater than 0."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 217.84,
+            "end": 220.84,
+            "text": " So, statement 1 is also true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 220.84,
+            "end": 222.84,
+            "text": " 5 greater than 0 is also true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 222.84,
+            "end": 225.84,
+            "text": " I have put logical and between both."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 225.84,
+            "end": 228.84,
+            "text": " And if I save this and run it,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 228.84,
+            "end": 232.84,
+            "text": " then the final output will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 232.84,
+            "end": 235.84,
+            "text": " Now, if I make this statement false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 235.84,
+            "end": 238.84,
+            "text": " that is, 3 is less than 2,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 238.84,
+            "end": 241.84,
+            "text": " I know this is obviously a false statement."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 241.84,
+            "end": 244.84,
+            "text": " In that case, the output will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 245.84,
+            "end": 247.84,
+            "text": " And if I make this statement true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 247.84,
+            "end": 249.84,
+            "text": " then I will make this statement false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 249.84,
+            "end": 250.84,
+            "text": " How did I make it false?"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 250.84,
+            "end": 252.84,
+            "text": " I said 5 less than 0."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 252.84,
+            "end": 255.84,
+            "text": " Then also the output will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 255.84,
+            "end": 258.84000000000003,
+            "text": " And if I make both false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 258.84000000000003,
+            "end": 260.84000000000003,
+            "text": " and then I execute,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 260.84000000000003,
+            "end": 263.84000000000003,
+            "text": " then also the output will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 263.84000000000003,
+            "end": 265.84000000000003,
+            "text": " So, both the statements will be true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 265.84000000000003,
+            "end": 268.84000000000003,
+            "text": " then only it will return logical and true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 268.84000000000003,
+            "end": 270.84000000000003,
+            "text": " Next, let's talk about logical or."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 270.84000000000003,
+            "end": 273.84000000000003,
+            "text": " The rules of logical or say that"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 274.84,
+            "end": 277.84,
+            "text": " statement 1, statement 2"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 282.84,
+            "end": 283.84,
+            "text": " answer."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 284.84,
+            "end": 287.84,
+            "text": " If statement 1 is true and statement 2 is true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 287.84,
+            "end": 291.84,
+            "text": " then the final answer should be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 292.84,
+            "end": 296.84,
+            "text": " If statement 1 is true and statement 2 is false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 296.84,
+            "end": 299.84,
+            "text": " then the final answer is true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 299.84,
+            "end": 303.84,
+            "text": " If statement 1 is false and statement 2 is true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 303.84,
+            "end": 306.84,
+            "text": " then the final answer will be true in that case also."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 306.84,
+            "end": 310.84,
+            "text": " And if statement 1 is false and statement 2 is also false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 310.84,
+            "end": 313.84,
+            "text": " then the final answer will be false in that case."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 313.84,
+            "end": 316.84,
+            "text": " That is, logical or says that"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 316.84,
+            "end": 319.84,
+            "text": " in the case in which both your statements are false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 319.84,
+            "end": 321.84,
+            "text": " then only your final answer will be false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 321.84,
+            "end": 325.84,
+            "text": " In all other cases, the final answer will be true for us."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 325.84,
+            "end": 327.84,
+            "text": " If we write it in general,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 327.84,
+            "end": 330.84,
+            "text": " then if statement 1 or or"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 330.84,
+            "end": 333.84,
+            "text": " the sign that we will put here,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 333.84,
+            "end": 335.84,
+            "text": " this is a pipe operator,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 335.84,
+            "end": 339.84,
+            "text": " means the single straight line will be on your keyboard."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 339.84,
+            "end": 341.84,
+            "text": " We have to press it twice."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 341.84,
+            "end": 344.84,
+            "text": " Or or, we will call it or."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 344.84,
+            "end": 349.84,
+            "text": " If statement 2 is false and this is also false,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 349.84,
+            "end": 351.84,
+            "text": " then only we will get a false return."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 351.84,
+            "end": 354.84,
+            "text": " If any of these becomes true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 354.84,
+            "end": 356.84,
+            "text": " then we will get true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 356.84,
+            "end": 359.84,
+            "text": " Let's write code and execute it."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 359.84,
+            "end": 362.84,
+            "text": " First of all, we will give a false statement here."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 362.84,
+            "end": 365.84,
+            "text": " 3 less than 2 and second false statement is 5 less than 2."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 365.84,
+            "end": 367.84,
+            "text": " These are both false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 367.84,
+            "end": 369.84,
+            "text": " What will return us false false?"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 369.84,
+            "end": 373.84,
+            "text": " Instead of and, we give or operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 373.84,
+            "end": 378.84,
+            "text": " So false or false returns us false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 378.84,
+            "end": 381.84,
+            "text": " But if I make it true here,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 381.84,
+            "end": 384.84,
+            "text": " that is, 3 greater than 2 will return us true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 384.84,
+            "end": 387.84,
+            "text": " Then the final answer will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 387.84,
+            "end": 389.84,
+            "text": " Or I can make it false again."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 389.84,
+            "end": 392.84,
+            "text": " And I can make 5 greater than 0."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 392.84,
+            "end": 394.84,
+            "text": " I made one statement true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 394.84,
+            "end": 396.84,
+            "text": " Then it will return true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 396.84,
+            "end": 398.84,
+            "text": " And if I make both true,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 398.84,
+            "end": 401.84,
+            "text": " then true or true is always equal to true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 401.84,
+            "end": 403.84,
+            "text": " It is a very logical thing."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 403.84,
+            "end": 405.84,
+            "text": " And whenever we write,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 405.84,
+            "end": 407.84,
+            "text": " then both of them should be true to make it true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 407.84,
+            "end": 409.84,
+            "text": " And whenever we write,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 409.84,
+            "end": 411.84,
+            "text": " then any of the two will work."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 411.84,
+            "end": 413.84,
+            "text": " Then your answer will be true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 413.84,
+            "end": 417.84,
+            "text": " The next logical operator we will talk about is logical and."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 417.84,
+            "end": 420.84,
+            "text": " If you have a true statement,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 420.84,
+            "end": 422.84,
+            "text": " it will make it false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 422.84,
+            "end": 424.84,
+            "text": " If you have a false statement,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 424.84,
+            "end": 426.84,
+            "text": " it will make it true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 426.84,
+            "end": 431.84,
+            "text": " That is, if you put logical and in front of the statement,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 431.84,
+            "end": 433.84,
+            "text": " we also call it not operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 433.84,
+            "end": 435.84,
+            "text": " Not operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 435.84,
+            "end": 439.84,
+            "text": " Or we also call it logical not operator."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 439.84,
+            "end": 443.84,
+            "text": " So if you put this exclamation anywhere,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 443.84,
+            "end": 445.84,
+            "text": " put logical not in front of any statement,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 445.84,
+            "end": 449.84,
+            "text": " then the true false value of the statement inside"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 449.84,
+            "end": 451.84,
+            "text": " will be completely opposite."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 451.84,
+            "end": 453.84,
+            "text": " If we have to make a table for this,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 453.84,
+            "end": 456.84,
+            "text": " if the rules table of logical not is made,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 456.84,
+            "end": 459.84,
+            "text": " then it will look like this."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 459.84,
+            "end": 462.84,
+            "text": " Where you have any statement and the final answer."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 462.84,
+            "end": 464.84,
+            "text": " If we have true value,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 464.84,
+            "end": 466.84,
+            "text": " then logical not will make it false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 466.84,
+            "end": 468.84,
+            "text": " And if we have false value,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 468.84,
+            "end": 470.84,
+            "text": " then logical not will make it true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 470.84,
+            "end": 472.84,
+            "text": " Let's see this too."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 472.84,
+            "end": 474.84,
+            "text": " Apply this on a single statement."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 474.84,
+            "end": 477.84,
+            "text": " That is, we do not need two statements here."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 477.84,
+            "end": 479.84,
+            "text": " We can apply it on a single statement."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 479.84,
+            "end": 483.84,
+            "text": " 3 greater than 2."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 483.84,
+            "end": 486.84,
+            "text": " I know 3 greater than 2 will return me true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 486.84,
+            "end": 489.84,
+            "text": " But here if I put logical not,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 489.84,
+            "end": 492.84,
+            "text": " then the answer will return false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 492.84,
+            "end": 496.84,
+            "text": " There 0 greater than 5."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 496.84,
+            "end": 498.84,
+            "text": " That is, the value is false."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 498.84,
+            "end": 500.84,
+            "text": " But here I have put not,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 500.84,
+            "end": 502.84,
+            "text": " then it will return true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 502.84,
+            "end": 505.84,
+            "text": " And here it will be printed true."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 505.84,
+            "end": 508.84,
+            "text": " So this is how our logical operators work."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 508.84,
+            "end": 511.84,
+            "text": " The real usage of logical operators"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 511.84,
+            "end": 514.8399999999999,
+            "text": " is that we think that they are operators."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 514.8399999999999,
+            "end": 517.8399999999999,
+            "text": " But once we read conditional statements,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 517.8399999999999,
+            "end": 519.8399999999999,
+            "text": " in which we will be talking about if else,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 519.8399999999999,
+            "end": 521.8399999999999,
+            "text": " we will be talking about switch."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 521.8399999999999,
+            "end": 523.8399999999999,
+            "text": " When we will be reading such things"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 523.8399999999999,
+            "end": 525.8399999999999,
+            "text": " in the coming sections,"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 525.84,
+            "end": 527.84,
+            "text": " then we will be able to see the usage"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 527.84,
+            "end": 530.84,
+            "text": " of logical operators and relational operators."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 530.84,
+            "end": 532.84,
+            "text": " And it will be very clear."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 532.84,
+            "end": 534.84,
+            "text": " Because it is very intuitive."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 534.84,
+            "end": 537.84,
+            "text": " It is not that it is very difficult to understand logic."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 537.84,
+            "end": 539.84,
+            "text": " It is very simple like math."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 539.84,
+            "end": 542.84,
+            "text": " And we know in math that 3 is always greater than 2."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 542.84,
+            "end": 544.84,
+            "text": " 5 is always greater than 0."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 544.84,
+            "end": 547.84,
+            "text": " Minus 1 is always less than 6."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 547.84,
+            "end": 550.84,
+            "text": " So we are increasing such very basic things."
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 550.84,
+            "end": 552.84,
+            "text": " We are also learning a very basic"
+        },
+        {
+            "number": " 7.5  ",
+            "title": "Logical",
+            "start": 552.84,
+            "end": 555.84,
+            "text": " and core method of using logical operators."
+        }
+    ],
+    "text": " Next we will talk about logical operators which check the logic of our program. We can write some statements like the first statement 3 is greater than 2. This statement will give me true. The second statement 1 is not equal to 1. This statement will give me false. The third statement 5 is less than 10. This statement will also give me true. In this way, different statements can be made in our code. Now if we want to make a logic based on these statements in our program, then we make it using logical operators. The first logical operator we will talk about is logical and. To write logical and, we have to write 2 ampersand. That is, we have to write the sign of and on the keyboard twice. This is called logical and. If you put a single and by mistake, it will become a bitwise operator. Due to which an error can occur in your code. So do not put a single and. In logical operators, double and and double pipe are always used. The rule of logical and says that if your statement 1 and statement 2 are true, there are some rules for them. This is our final answer. If my statement 1 is true and my statement 2 is also true, then my final answer will be true. If my statement 1 is true and my statement 2 is false, then my final answer will be false. If my statement 1 is false and my statement 2 is true, then my final answer will be false. And if both of them are false, then my final answer will be false. Logical and says that if both of my statements are true, then my final answer will be true. In all other cases, my final answer will be false. This is the rule of logical and. If you are from a computer science background, then you must have heard of logical gates. Logical gates are used in computers to make a lot of machines. The programming logic in computers is made up of logical and, logical or, logical not. We have to keep these rules in mind. What is the condition of and? The condition of and is that if both statements are true, then the and will return true. We have to remember this. Logical and says that if I take statement 1 and statement 2, and put and and between them, and if it is true here and here, then my final output will be true. In other cases, the final output will be false. Let's see this in the form of an example. We are going to print it. First of all, we will write our statement 1. Assume statement 1 is 3 greater than 2. Now, we know that 3 greater than 2 is a relational operator. If this statement is true, then it will return true. And here I will put and and. I will give some space for clarity. And write the second statement 5 greater than 0. So, statement 1 is also true. 5 greater than 0 is also true. I have put logical and between both. And if I save this and run it, then the final output will be true. Now, if I make this statement false, that is, 3 is less than 2, I know this is obviously a false statement. In that case, the output will be false. And if I make this statement true, then I will make this statement false. How did I make it false? I said 5 less than 0. Then also the output will be false. And if I make both false, and then I execute, then also the output will be false. So, both the statements will be true, then only it will return logical and true. Next, let's talk about logical or. The rules of logical or say that statement 1, statement 2 answer. If statement 1 is true and statement 2 is true, then the final answer should be true. If statement 1 is true and statement 2 is false, then the final answer is true. If statement 1 is false and statement 2 is true, then the final answer will be true in that case also. And if statement 1 is false and statement 2 is also false, then the final answer will be false in that case. That is, logical or says that in the case in which both your statements are false, then only your final answer will be false. In all other cases, the final answer will be true for us. If we write it in general, then if statement 1 or or the sign that we will put here, this is a pipe operator, means the single straight line will be on your keyboard. We have to press it twice. Or or, we will call it or. If statement 2 is false and this is also false, then only we will get a false return. If any of these becomes true, then we will get true. Let's write code and execute it. First of all, we will give a false statement here. 3 less than 2 and second false statement is 5 less than 2. These are both false. What will return us false false? Instead of and, we give or operator. So false or false returns us false. But if I make it true here, that is, 3 greater than 2 will return us true. Then the final answer will be true. Or I can make it false again. And I can make 5 greater than 0. I made one statement true. Then it will return true. And if I make both true, then true or true is always equal to true. It is a very logical thing. And whenever we write, then both of them should be true to make it true. And whenever we write, then any of the two will work. Then your answer will be true. The next logical operator we will talk about is logical and. If you have a true statement, it will make it false. If you have a false statement, it will make it true. That is, if you put logical and in front of the statement, we also call it not operator. Not operator. Or we also call it logical not operator. So if you put this exclamation anywhere, put logical not in front of any statement, then the true false value of the statement inside will be completely opposite. If we have to make a table for this, if the rules table of logical not is made, then it will look like this. Where you have any statement and the final answer. If we have true value, then logical not will make it false. And if we have false value, then logical not will make it true. Let's see this too. Apply this on a single statement. That is, we do not need two statements here. We can apply it on a single statement. 3 greater than 2. I know 3 greater than 2 will return me true. But here if I put logical not, then the answer will return false. There 0 greater than 5. That is, the value is false. But here I have put not, then it will return true. And here it will be printed true. So this is how our logical operators work. The real usage of logical operators is that we think that they are operators. But once we read conditional statements, in which we will be talking about if else, we will be talking about switch. When we will be reading such things in the coming sections, then we will be able to see the usage of logical operators and relational operators. And it will be very clear. Because it is very intuitive. It is not that it is very difficult to understand logic. It is very simple like math. And we know in math that 3 is always greater than 2. 5 is always greater than 0. Minus 1 is always less than 6. So we are increasing such very basic things. We are also learning a very basic and core method of using logical operators."
+}

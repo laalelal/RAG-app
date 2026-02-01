@@ -1,0 +1,600 @@
+{
+    "chunks": [
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 0.0,
+            "end": 2.8000000000000003,
+            "text": " Let's talk about arithmetic operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 2.8000000000000003,
+            "end": 5.92,
+            "text": " We have been using arithmetic operators till now."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 5.92,
+            "end": 7.92,
+            "text": " They make the basics of maths."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 7.92,
+            "end": 10.68,
+            "text": " We are practicing these in Java."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 10.68,
+            "end": 13.8,
+            "text": " We are also learning a few additional arithmetic operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 13.8,
+            "end": 16.2,
+            "text": " There are two types of arithmetic operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 16.2,
+            "end": 18.68,
+            "text": " The first one is binary operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 18.68,
+            "end": 22.2,
+            "text": " These are the normal operators that we have talked about in maths till now."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 22.2,
+            "end": 26.0,
+            "text": " Binary means that whenever an expression is written,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 26.0,
+            "end": 29.240000000000002,
+            "text": " we have two operands."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 29.24,
+            "end": 32.239999999999995,
+            "text": " Binary means generally two."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 32.239999999999995,
+            "end": 35.56,
+            "text": " Whenever there are two operands in an expression,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 35.56,
+            "end": 38.68,
+            "text": " like we calculated sum A plus B,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 38.68,
+            "end": 42.519999999999996,
+            "text": " there was one operand A and one operand B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 42.519999999999996,
+            "end": 46.879999999999995,
+            "text": " So, the total number of operands we had was two."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 46.879999999999995,
+            "end": 49.76,
+            "text": " Whenever there are two operands in an expression,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 49.76,
+            "end": 52.44,
+            "text": " we need two operands for any operator."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 52.44,
+            "end": 56.44,
+            "text": " If we want to get the sum, we need at least two numbers."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 56.76,
+            "end": 60.0,
+            "text": " These are called binary operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 60.0,
+            "end": 63.0,
+            "text": " When we need only one operator,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 63.0,
+            "end": 65.0,
+            "text": " we call them unary operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 65.0,
+            "end": 67.2,
+            "text": " Unary means single unit."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 67.2,
+            "end": 69.8,
+            "text": " These are new. We will discuss them in detail."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 69.8,
+            "end": 72.6,
+            "text": " First, let's discuss our binary operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 72.6,
+            "end": 77.68,
+            "text": " Let's take an example of A is equal to 10 and B is equal to 5."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 77.68,
+            "end": 81.88,
+            "text": " First, let's discuss how to use the plus operator."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 81.88,
+            "end": 84.36,
+            "text": " We will simply write A plus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 84.52,
+            "end": 88.92,
+            "text": " This will give us 10 plus 5 is equal to 50."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 88.92,
+            "end": 91.92,
+            "text": " If we want to use the minus operator,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 91.92,
+            "end": 93.92,
+            "text": " we will write A minus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 93.92,
+            "end": 97.28,
+            "text": " This will give us 10 minus 5 is equal to 5."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 97.28,
+            "end": 101.28,
+            "text": " If we multiply, we will write A multiplied by B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 101.28,
+            "end": 105.52,
+            "text": " This will give us 10 multiplied by 5 is equal to 50."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 105.52,
+            "end": 107.52,
+            "text": " If we want to divide,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 107.52,
+            "end": 111.52,
+            "text": " we will use the slash sign."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 111.52,
+            "end": 114.52,
+            "text": " Java uses slash to divide."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 114.52,
+            "end": 117.0,
+            "text": " We will write A slash B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 117.0,
+            "end": 119.0,
+            "text": " This will divide us."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 119.0,
+            "end": 122.16,
+            "text": " A divided by B is equal to 2."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 122.16,
+            "end": 124.92,
+            "text": " We have covered the basic math."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 124.92,
+            "end": 128.48,
+            "text": " There is another special arithmetic operator in Java."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 128.48,
+            "end": 130.48,
+            "text": " We call it modulo."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 130.48,
+            "end": 134.2,
+            "text": " Modulo is used to get the remainder."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 134.2,
+            "end": 138.0,
+            "text": " Remainder means where I wrote A percentage B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " This will calculate the modulo."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 142.0,
+            "end": 148.12,
+            "text": " 10 modulo 5 will give me 10 divided by 5 is equal to 0."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 148.12,
+            "end": 152.6,
+            "text": " If I have 5 modulo 3,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 152.6,
+            "end": 154.6,
+            "text": " it will return 2."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 154.6,
+            "end": 157.6,
+            "text": " If I divide 5 by 3,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 157.6,
+            "end": 160.48,
+            "text": " it will be minus 3 times 2."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 160.48,
+            "end": 164.0,
+            "text": " The remainder will be like the output."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 164.0,
+            "end": 166.88,
+            "text": " This is what our modulo operator does."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 166.96,
+            "end": 173.68,
+            "text": " Modulo is a new operator that exists in Java, C++, C."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 173.68,
+            "end": 178.48,
+            "text": " There is a different operator for the remainder in programming."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 178.48,
+            "end": 180.48,
+            "text": " We should remember this."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 180.48,
+            "end": 185.6,
+            "text": " Let's code these 5 operators with numbers A and B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 185.6,
+            "end": 189.6,
+            "text": " Let's define an integer A."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 189.6,
+            "end": 191.6,
+            "text": " Capital A is equal to 10."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 191.6,
+            "end": 195.6,
+            "text": " Integer B is equal to 5."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 196.88,
+            "end": 202.88,
+            "text": " We will print A plus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 202.88,
+            "end": 207.44,
+            "text": " We will print A minus B in the same way."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 207.44,
+            "end": 214.07999999999998,
+            "text": " If I want to print A plus B with any other string,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 214.07999999999998,
+            "end": 217.07999999999998,
+            "text": " I will put a plus sign in the middle."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 217.07999999999998,
+            "end": 220.88,
+            "text": " Add is equal to plus."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 220.88,
+            "end": 222.88,
+            "text": " If I want to print A plus B,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 222.88,
+            "end": 224.88,
+            "text": " I will print A plus B in the same way."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 224.88,
+            "end": 230.88,
+            "text": " The value of A plus B will be printed on a different screen."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 230.88,
+            "end": 235.88,
+            "text": " Add is equal to plus A plus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 235.88,
+            "end": 239.88,
+            "text": " Let's run this."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 244.88,
+            "end": 249.88,
+            "text": " We will get the result of add is equal to 15."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 249.88,
+            "end": 257.88,
+            "text": " Add is equal to 15."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 257.88,
+            "end": 264.88,
+            "text": " Subtract is equal to A minus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 264.88,
+            "end": 270.88,
+            "text": " Subtract is equal to 5."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 270.88,
+            "end": 277.88,
+            "text": " Multiply is equal to A multiplied by B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 277.88,
+            "end": 280.88,
+            "text": " This is equal to 50."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 280.88,
+            "end": 283.88,
+            "text": " Multiply is equal to 50."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 283.88,
+            "end": 289.88,
+            "text": " Finally, divide is equal to A plus B."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 289.88,
+            "end": 295.88,
+            "text": " 10 divided by 5 is equal to 2."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 295.88,
+            "end": 303.88,
+            "text": " If we want to print modulo or remainder,"
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 304.88,
+            "end": 309.88,
+            "text": " we will get the sign of modulo or percentage."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 309.88,
+            "end": 312.88,
+            "text": " Remainder is equal to 0."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 312.88,
+            "end": 315.88,
+            "text": " 5 is completely divided by 10."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 315.88,
+            "end": 318.88,
+            "text": " We used all these binary operators."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 318.88,
+            "end": 322.88,
+            "text": " They are called binary because we need two minimum operands."
+        },
+        {
+            "number": " 7.2 ",
+            "title": "Arthritic",
+            "start": 322.88,
+            "end": 324.88,
+            "text": " We need A and B."
+        }
+    ],
+    "text": " Let's talk about arithmetic operators. We have been using arithmetic operators till now. They make the basics of maths. We are practicing these in Java. We are also learning a few additional arithmetic operators. There are two types of arithmetic operators. The first one is binary operators. These are the normal operators that we have talked about in maths till now. Binary means that whenever an expression is written, we have two operands. Binary means generally two. Whenever there are two operands in an expression, like we calculated sum A plus B, there was one operand A and one operand B. So, the total number of operands we had was two. Whenever there are two operands in an expression, we need two operands for any operator. If we want to get the sum, we need at least two numbers. These are called binary operators. When we need only one operator, we call them unary operators. Unary means single unit. These are new. We will discuss them in detail. First, let's discuss our binary operators. Let's take an example of A is equal to 10 and B is equal to 5. First, let's discuss how to use the plus operator. We will simply write A plus B. This will give us 10 plus 5 is equal to 50. If we want to use the minus operator, we will write A minus B. This will give us 10 minus 5 is equal to 5. If we multiply, we will write A multiplied by B. This will give us 10 multiplied by 5 is equal to 50. If we want to divide, we will use the slash sign. Java uses slash to divide. We will write A slash B. This will divide us. A divided by B is equal to 2. We have covered the basic math. There is another special arithmetic operator in Java. We call it modulo. Modulo is used to get the remainder. Remainder means where I wrote A percentage B. This will calculate the modulo. 10 modulo 5 will give me 10 divided by 5 is equal to 0. If I have 5 modulo 3, it will return 2. If I divide 5 by 3, it will be minus 3 times 2. The remainder will be like the output. This is what our modulo operator does. Modulo is a new operator that exists in Java, C++, C. There is a different operator for the remainder in programming. We should remember this. Let's code these 5 operators with numbers A and B. Let's define an integer A. Capital A is equal to 10. Integer B is equal to 5. We will print A plus B. We will print A minus B in the same way. If I want to print A plus B with any other string, I will put a plus sign in the middle. Add is equal to plus. If I want to print A plus B, I will print A plus B in the same way. The value of A plus B will be printed on a different screen. Add is equal to plus A plus B. Let's run this. We will get the result of add is equal to 15. Add is equal to 15. Subtract is equal to A minus B. Subtract is equal to 5. Multiply is equal to A multiplied by B. This is equal to 50. Multiply is equal to 50. Finally, divide is equal to A plus B. 10 divided by 5 is equal to 2. If we want to print modulo or remainder, we will get the sign of modulo or percentage. Remainder is equal to 0. 5 is completely divided by 10. We used all these binary operators. They are called binary because we need two minimum operands. We need A and B."
+}

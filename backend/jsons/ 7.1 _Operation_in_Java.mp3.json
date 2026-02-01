@@ -1,0 +1,250 @@
+{
+    "chunks": [
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 0.0,
+            "end": 4.0,
+            "text": " In this class, we are going to learn about Operators in Java."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 4.0,
+            "end": 10.0,
+            "text": " Now, if we want to write an expression in Maths, how do we write it?"
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 10.0,
+            "end": 14.0,
+            "text": " For example, we have written sum is equal to a plus b."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 14.0,
+            "end": 19.0,
+            "text": " We will call this an expression in Maths and in fact in Java."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 19.0,
+            "end": 24.0,
+            "text": " There are 2-3 components of an expression whose names we should know."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 24.0,
+            "end": 35.0,
+            "text": " For example, we call a and b as Operands and plus as Operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 35.0,
+            "end": 48.0,
+            "text": " Whenever an operation is performed, it has 2 major components."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 48.0,
+            "end": 57.0,
+            "text": " The first one is Operands, i.e. who did we add, subtract, multiply, etc."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 57.0,
+            "end": 60.0,
+            "text": " Operands are a and b."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 60.0,
+            "end": 64.0,
+            "text": " The second major component of an expression is Operator."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 64.0,
+            "end": 69.0,
+            "text": " Operator is the symbol that tells us which operation is being performed."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 69.0,
+            "end": 74.0,
+            "text": " Here, since addition operation is being performed, so plus sign is the operator."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 74.0,
+            "end": 79.0,
+            "text": " We could have written difference as a minus b."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 79.0,
+            "end": 85.0,
+            "text": " Here, a and b are Operands and minus sign is the operator."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 85.0,
+            "end": 89.0,
+            "text": " Operators are similar to Maths operators in Java."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 89.0,
+            "end": 96.0,
+            "text": " Operators are the symbols in Java that tell the compiler which operation should be performed."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 96.0,
+            "end": 100.0,
+            "text": " For example, plus tells the compiler that we should add."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 100.0,
+            "end": 106.0,
+            "text": " Here, a minus b tells the compiler that we should subtract."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 106.0,
+            "end": 112.0,
+            "text": " Here, a multiplied by b tells us that we should multiply."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 112.0,
+            "end": 118.0,
+            "text": " Here, a divided by b tells us that we should divide."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 118.0,
+            "end": 122.0,
+            "text": " In this way, there are many operators in Java."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 122.0,
+            "end": 127.0,
+            "text": " In fact, to summarize, there are many types of operators in Java."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 127.0,
+            "end": 130.0,
+            "text": " The first type is Arithmetic operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 130.0,
+            "end": 134.0,
+            "text": " These have their own subtypes, Binary and Unary."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 134.0,
+            "end": 136.0,
+            "text": " There is another type, Ternary."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 136.0,
+            "end": 142.0,
+            "text": " We will be studying this in the next section, i.e. with conditional statements."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 142.0,
+            "end": 145.0,
+            "text": " The second type is Relational operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 145.0,
+            "end": 148.0,
+            "text": " The third type is Logical operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 148.0,
+            "end": 151.0,
+            "text": " The fourth type is Bitwise operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 151.0,
+            "end": 155.0,
+            "text": " We will be studying these operators in the Bit manipulation section."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 155.0,
+            "end": 158.0,
+            "text": " These will be a little high level for now."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 158.0,
+            "end": 167.0,
+            "text": " We will cover all these stories in the Bit manipulation section."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 167.0,
+            "end": 170.0,
+            "text": " Other than that, there are Assignment operators."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 170.0,
+            "end": 173.0,
+            "text": " We will be studying all these operators in this class."
+        },
+        {
+            "number": " 7.1 ",
+            "title": "Operation",
+            "start": 173.0,
+            "end": 178.0,
+            "text": " We will study each one of them, understand their meaning, look at the examples and write a lot of code."
+        }
+    ],
+    "text": " In this class, we are going to learn about Operators in Java. Now, if we want to write an expression in Maths, how do we write it? For example, we have written sum is equal to a plus b. We will call this an expression in Maths and in fact in Java. There are 2-3 components of an expression whose names we should know. For example, we call a and b as Operands and plus as Operators. Whenever an operation is performed, it has 2 major components. The first one is Operands, i.e. who did we add, subtract, multiply, etc. Operands are a and b. The second major component of an expression is Operator. Operator is the symbol that tells us which operation is being performed. Here, since addition operation is being performed, so plus sign is the operator. We could have written difference as a minus b. Here, a and b are Operands and minus sign is the operator. Operators are similar to Maths operators in Java. Operators are the symbols in Java that tell the compiler which operation should be performed. For example, plus tells the compiler that we should add. Here, a minus b tells the compiler that we should subtract. Here, a multiplied by b tells us that we should multiply. Here, a divided by b tells us that we should divide. In this way, there are many operators in Java. In fact, to summarize, there are many types of operators in Java. The first type is Arithmetic operators. These have their own subtypes, Binary and Unary. There is another type, Ternary. We will be studying this in the next section, i.e. with conditional statements. The second type is Relational operators. The third type is Logical operators. The fourth type is Bitwise operators. We will be studying these operators in the Bit manipulation section. These will be a little high level for now. We will cover all these stories in the Bit manipulation section. Other than that, there are Assignment operators. We will be studying all these operators in this class. We will study each one of them, understand their meaning, look at the examples and write a lot of code."
+}

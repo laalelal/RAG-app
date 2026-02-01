@@ -1,0 +1,502 @@
+{
+    "chunks": [
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 0.0,
+            "end": 4.5,
+            "text": " The last type of operator we will talk about is the assignment operator."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 4.5,
+            "end": 9.9,
+            "text": " We have seen one type of assignment operator, now let's see the other types of assignment operator."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 9.9,
+            "end": 14.200000000000001,
+            "text": " Assignment operator is basically, if I write A is equal to B,"
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 14.200000000000001,
+            "end": 19.7,
+            "text": " then Java will assign the value of the operator you have written in the right to the left."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 19.7,
+            "end": 24.2,
+            "text": " And this equal to, we will call it the assignment operator."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 24.2,
+            "end": 27.5,
+            "text": " So first of all, we have the assignment operator equal to."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 27.9,
+            "end": 32.9,
+            "text": " As soon as I write A equal to B, then the value of B will come in my A."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 32.9,
+            "end": 40.3,
+            "text": " If the value of B is 5, then if the value of A was 10, then it will be cut and its value will also become 5 in the memory."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 40.3,
+            "end": 43.3,
+            "text": " We have seen this many times so far."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 43.3,
+            "end": 47.900000000000006,
+            "text": " But this time we will explore a different variation of the assignment operator."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 47.9,
+            "end": 57.6,
+            "text": " If I have to write A is equal to A plus 10 or B is equal to B minus 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 57.6,
+            "end": 64.0,
+            "text": " So I can write this statement as A plus equal to 10."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 64.0,
+            "end": 69.6,
+            "text": " And I can change this statement to B minus equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 69.6,
+            "end": 75.0,
+            "text": " So this is just a small way to write the same assignment, wherever the assignment comes."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 75.1,
+            "end": 77.1,
+            "text": " And the operand remains the same."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 78.8,
+            "end": 84.6,
+            "text": " Only one variable value comes, so there we can write plus equal to."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 84.6,
+            "end": 91.7,
+            "text": " And where something is being minused from the same operand, something is being minused from the same variable and the same variable is being assigned."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 91.7,
+            "end": 94.9,
+            "text": " So there we can write B minus is equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 94.9,
+            "end": 97.9,
+            "text": " If we have any variable int A is equal to 10."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 97.9,
+            "end": 103.1,
+            "text": " And if I have to print system.out.println, this A."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 103.19999999999999,
+            "end": 106.19999999999999,
+            "text": " I just have to change its value a little."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 106.19999999999999,
+            "end": 110.19999999999999,
+            "text": " If I write A is equal to A plus 10."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 110.19999999999999,
+            "end": 112.19999999999999,
+            "text": " So what will happen in this case?"
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 112.19999999999999,
+            "end": 117.19999999999999,
+            "text": " My A will be printed for me like 20."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 117.19999999999999,
+            "end": 122.19999999999999,
+            "text": " But if I write this here, comment."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 122.19999999999999,
+            "end": 125.19999999999999,
+            "text": " And here I write plus equal to 10."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 125.19999999999999,
+            "end": 131.2,
+            "text": " So in this case also Java will return me the same output which is 20."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 131.29999999999998,
+            "end": 135.29999999999998,
+            "text": " So there is no difference between this statement and this statement."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 135.29999999999998,
+            "end": 140.29999999999998,
+            "text": " In fact, if I tell you, this statement will be executed faster."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 140.29999999999998,
+            "end": 143.29999999999998,
+            "text": " Java will execute it with more speed."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 143.29999999999998,
+            "end": 148.29999999999998,
+            "text": " This speed will be much faster in execution in nanoseconds."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 148.29999999999998,
+            "end": 150.29999999999998,
+            "text": " That's why we won't see it now."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 150.29999999999998,
+            "end": 159.29999999999998,
+            "text": " But if you write big programs, do competitive programming, write big codes for your interviews or for your coding test."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 159.4,
+            "end": 163.4,
+            "text": " So it is advisable to write this statement instead of this statement."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 163.4,
+            "end": 165.4,
+            "text": " So it will give you faster execution."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 165.4,
+            "end": 169.4,
+            "text": " Apart from that, let's check another variation."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 169.4,
+            "end": 171.4,
+            "text": " Int B is equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 171.4,
+            "end": 176.4,
+            "text": " Now if I have to do B is equal to B minus 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 176.4,
+            "end": 179.4,
+            "text": " So I know what value it will give."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 179.4,
+            "end": 182.4,
+            "text": " If I want to print the value of final B."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 182.4,
+            "end": 186.4,
+            "text": " So I will get 0 after printing."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 186.5,
+            "end": 193.5,
+            "text": " But if I change this statement and write B minus equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 193.5,
+            "end": 195.5,
+            "text": " And then I print B."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 195.5,
+            "end": 198.5,
+            "text": " So in that case I will get 0."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 198.5,
+            "end": 203.5,
+            "text": " So there is no difference between this statement and this statement."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 203.5,
+            "end": 205.5,
+            "text": " These two statements are same."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 205.5,
+            "end": 209.5,
+            "text": " In fact, the meaning is same but this statement is a little bit faster."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 209.6,
+            "end": 214.6,
+            "text": " Similarly, we can write plus equal to or minus equal to."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 214.6,
+            "end": 217.6,
+            "text": " Similarly, we can multiply and divide."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 217.6,
+            "end": 221.6,
+            "text": " If I multiply this, then what will happen?"
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 221.6,
+            "end": 226.6,
+            "text": " In that case, it will mean B is equal to."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 226.6,
+            "end": 231.6,
+            "text": " I will erase all this so that it is understood properly."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 234.6,
+            "end": 237.6,
+            "text": " I took integer B is equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 237.7,
+            "end": 239.7,
+            "text": " So I wrote B multiplied equal to 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 239.7,
+            "end": 241.7,
+            "text": " So it means B is equal to B multiplied by 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 241.7,
+            "end": 243.7,
+            "text": " 5 multiplied by 5 is 25."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 243.7,
+            "end": 245.7,
+            "text": " So finally it is 25."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 247.7,
+            "end": 249.7,
+            "text": " If I divide here."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 249.7,
+            "end": 251.7,
+            "text": " Like I did here."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 251.7,
+            "end": 255.7,
+            "text": " So it means B is equal to B divided by 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 255.7,
+            "end": 257.7,
+            "text": " Which will give me 1."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 259.7,
+            "end": 261.7,
+            "text": " We can also modulo this."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 261.7,
+            "end": 263.7,
+            "text": " We can also remove the remainder."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 263.8,
+            "end": 267.8,
+            "text": " If I divide 5 by 5."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 267.8,
+            "end": 269.8,
+            "text": " Then the remainder will be 0."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 269.8,
+            "end": 271.8,
+            "text": " So the final output is 0."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 273.8,
+            "end": 277.8,
+            "text": " So we have covered all the assignment operators."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 277.8,
+            "end": 281.8,
+            "text": " In the day to day, we will be writing different codes."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 281.8,
+            "end": 283.8,
+            "text": " We will be writing different programs."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 283.8,
+            "end": 285.8,
+            "text": " We will be building up a lot of logic."
+        },
+        {
+            "number": " 7.6 ",
+            "title": "Assignment",
+            "start": 285.8,
+            "end": 289.8,
+            "text": " In those codes, we will be using all these operators one by one."
+        }
+    ],
+    "text": " The last type of operator we will talk about is the assignment operator. We have seen one type of assignment operator, now let's see the other types of assignment operator. Assignment operator is basically, if I write A is equal to B, then Java will assign the value of the operator you have written in the right to the left. And this equal to, we will call it the assignment operator. So first of all, we have the assignment operator equal to. As soon as I write A equal to B, then the value of B will come in my A. If the value of B is 5, then if the value of A was 10, then it will be cut and its value will also become 5 in the memory. We have seen this many times so far. But this time we will explore a different variation of the assignment operator. If I have to write A is equal to A plus 10 or B is equal to B minus 5. So I can write this statement as A plus equal to 10. And I can change this statement to B minus equal to 5. So this is just a small way to write the same assignment, wherever the assignment comes. And the operand remains the same. Only one variable value comes, so there we can write plus equal to. And where something is being minused from the same operand, something is being minused from the same variable and the same variable is being assigned. So there we can write B minus is equal to 5. If we have any variable int A is equal to 10. And if I have to print system.out.println, this A. I just have to change its value a little. If I write A is equal to A plus 10. So what will happen in this case? My A will be printed for me like 20. But if I write this here, comment. And here I write plus equal to 10. So in this case also Java will return me the same output which is 20. So there is no difference between this statement and this statement. In fact, if I tell you, this statement will be executed faster. Java will execute it with more speed. This speed will be much faster in execution in nanoseconds. That's why we won't see it now. But if you write big programs, do competitive programming, write big codes for your interviews or for your coding test. So it is advisable to write this statement instead of this statement. So it will give you faster execution. Apart from that, let's check another variation. Int B is equal to 5. Now if I have to do B is equal to B minus 5. So I know what value it will give. If I want to print the value of final B. So I will get 0 after printing. But if I change this statement and write B minus equal to 5. And then I print B. So in that case I will get 0. So there is no difference between this statement and this statement. These two statements are same. In fact, the meaning is same but this statement is a little bit faster. Similarly, we can write plus equal to or minus equal to. Similarly, we can multiply and divide. If I multiply this, then what will happen? In that case, it will mean B is equal to. I will erase all this so that it is understood properly. I took integer B is equal to 5. So I wrote B multiplied equal to 5. So it means B is equal to B multiplied by 5. 5 multiplied by 5 is 25. So finally it is 25. If I divide here. Like I did here. So it means B is equal to B divided by 5. Which will give me 1. We can also modulo this. We can also remove the remainder. If I divide 5 by 5. Then the remainder will be 0. So the final output is 0. So we have covered all the assignment operators. In the day to day, we will be writing different codes. We will be writing different programs. We will be building up a lot of logic. In those codes, we will be using all these operators one by one."
+}
