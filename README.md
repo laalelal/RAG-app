@@ -34,22 +34,22 @@ The system is fully **cloud-based**, free to deploy, and works even when your lo
 - Answer + Timestamp
  
  ## Hierarchy way direction
- RAG-app/
-│
-├── backend/
-│ ├── app.py # Flask API
-│ ├── process_incoming.py # RAG logic (retrieval + Groq)
-│ ├── load_chunks.py # Optional embedding loader
-│ ├── embeddings.joblib # (Optional) precomputed embeddings
-│ ├── jsons/ # Video transcript JSON files
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── index.html # UI
-│ ├── style.css # Styling
-│ └── script.js # API calls
-│
-└── README.md
+- RAG-app/
+ │
+-├── backend/
+-│ ├── app.py # Flask API
+-│ ├── process_incoming.py # RAG logic (retrieval + Groq)
+-│ ├── load_chunks.py # Optional embedding loader
+-│ ├── embeddings.joblib # (Optional) precomputed embeddings
+-│ ├── jsons/ # Video transcript JSON files
+-│ └── requirements.txt
+-│
+-├── frontend/
+-│ ├── index.html # UI
+-│ ├── style.css # Styling
+-│ └── script.js # API calls
+-│
+-└── README.md
 
 ##  How Video Data Is Used
 
