@@ -35,22 +35,22 @@ The system is fully **cloud-based**, free to deploy, and works even when your lo
  
  ## Hierarchy way direction
 - RAG-app/
- │
--├── backend/
--│ ├── app.py # Flask API
--│ ├── process_incoming.py # RAG logic (retrieval + Groq)
--│ ├── load_chunks.py # Optional embedding loader
--│ ├── embeddings.joblib # (Optional) precomputed embeddings
--│ ├── jsons/ # Video transcript JSON files
--│ └── requirements.txt
--│
--├── frontend/
--│ ├── index.html # UI
--│ ├── style.css # Styling
--│ └── script.js # API calls
--│
--└── README.md
+-  ├── backend/
+-  │ ├── app.py # Flask API
+-  │ ├── process_incoming.py # RAG logic (retrieval + Groq)
+-  │ ├── load_chunks.py # Optional embedding loader
+-  │ ├── embeddings.joblib # (Optional) precomputed embeddings
+-  │ ├── jsons/ # Video transcript JSON files
+-  │ └── requirements.txt
+-  │
+-  ├── frontend/
+-  │ ├── index.html # UI
+-  │ ├── style.css # Styling
+-  │ └── script.js # API calls
+-  │
+-  └── README.md
 
+  
 ##  How Video Data Is Used
 
 1. Videos are converted to audio (`.mp3`)
